@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color:aliceblue;
+   
+
+}
+html,
+body{
+    height: 180%;
+    width: 100%;
+
+}
+body{
+    background-color: #111;
+}
+#box1{
+   height: 200px;
+   width: 200px;
+   background-color: crimson; 
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(66, 197, 90); 
+ }
+ #box3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(30, 112, 160); 
+ }
+ 
+ .nav{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    
+ }
+ 
+ .part2{
+    display: flex;
+    gap:50px;
+    
+ }
+ .main{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 130px;
+ }
